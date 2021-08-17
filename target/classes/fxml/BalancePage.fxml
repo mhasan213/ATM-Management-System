@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="344.0" prefWidth="558.0" style="-fx-background-color: #4CAF50;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="314.0" layoutY="13.0" prefHeight="318.0" prefWidth="231.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="22.0" layoutY="69.0" text="Current Balance" textFill="#4caf50">
+               <font>
+                  <Font name="System Bold" size="24.0" />
+               </font>
+            </Label>
+            <TextField alignment="CENTER" editable="false" focusTraversable="false" layoutX="15.0" layoutY="149.0" prefHeight="53.0" prefWidth="200.0" promptText="Balance" style="-fx-background-radius: 30; -fx-border-radius: 30; -fx-border-color: #4CAF50;">
+               <cursor>
+                  <Cursor fx:constant="OPEN_HAND" />
+               </cursor>
+               <font>
+                  <Font size="28.0" />
+               </font>
+            </TextField>
+         </children>
+      </Pane>
+      <ImageView fitHeight="188.0" fitWidth="198.0" layoutX="56.0" layoutY="111.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/accountbalance.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="41.0" layoutY="36.0" prefHeight="53.0" prefWidth="231.0" text="Account Balance">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

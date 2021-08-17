@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="281.0" prefWidth="471.0" style="-fx-background-color: #344F93;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <ImageView fitHeight="285.0" fitWidth="471.0" layoutY="-1.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/logout1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="217.0" fitWidth="193.0" layoutX="14.0" layoutY="33.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/card.png" />
+         </image>
+         <effect>
+            <Glow />
+         </effect>
+      </ImageView>
+      <Label contentDisplay="TOP" layoutX="251.0" layoutY="33.0" prefHeight="88.0" prefWidth="206.0" text="WE HOPE TO" textAlignment="JUSTIFY" textFill="#aeaeae">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+      <Label layoutX="280.0" layoutY="97.0" text="SEE YOU" textFill="#a4a4a4">
+         <font>
+            <Font name="System Bold" size="33.0" />
+         </font>
+      </Label>
+      <Label layoutX="239.0" layoutY="146.0" text="AGAIN SOON!" textFill="#b9b9b9">
+         <font>
+            <Font name="System Bold" size="32.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

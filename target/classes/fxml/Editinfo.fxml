@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2C2C2C;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8">
+   <children>
+      <ImageView fitHeight="189.0" fitWidth="192.0" layoutX="37.0" layoutY="106.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/editinfo.png" />
+         </image>
+      </ImageView>
+      <Pane layoutX="272.0" layoutY="22.0" prefHeight="356.0" prefWidth="314.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <Button layoutX="140.0" layoutY="314.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="124.0" style="-fx-background-radius: 20; -fx-background-color: #1C4887;" text="Edit Information" textFill="#36c0ed">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+            <TextField layoutX="149.0" layoutY="256.0" style="-fx-background-radius: 20; -fx-border-color: #1C4887; -fx-border-radius: 20;">
+               <effect>
+                  <Glow />
+               </effect>
+            </TextField>
+            <TextField layoutX="149.0" layoutY="208.0" style="-fx-background-radius: 20; -fx-border-color: #1C4887; -fx-border-radius: 20;">
+               <effect>
+                  <Glow />
+               </effect>
+            </TextField>
+            <TextField layoutX="150.0" layoutY="114.0" prefHeight="71.0" prefWidth="149.0" style="-fx-background-radius: 20; -fx-border-color: #1C4887; -fx-border-radius: 20;">
+               <effect>
+                  <Glow />
+               </effect>
+            </TextField>
+            <TextField layoutX="149.0" layoutY="62.0" style="-fx-background-radius: 20; -fx-border-color: #1C4887; -fx-border-radius: 20;">
+               <effect>
+                  <Glow />
+               </effect>
+            </TextField>
+            <TextField layoutX="149.0" layoutY="18.0" style="-fx-background-radius: 20; -fx-border-color: #1C4887; -fx-border-radius: 20;">
+               <effect>
+                  <Glow />
+               </effect>
+            </TextField>
+            <Label layoutX="15.0" layoutY="259.0" text="Current Balance">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="211.0" text="Phone">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="129.0" text="Address">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="65.0" text="Username">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="21.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <Label layoutX="42.0" layoutY="46.0" prefHeight="41.0" prefWidth="180.0" text="Edit Information" textFill="#36c0ed">
+         <font>
+            <Font name="System Bold" size="22.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

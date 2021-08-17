@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="542.0" prefWidth="640.0" style="-fx-background-color: #344F93;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.atmmanagement.MENUController">
+   <children>
+      <AnchorPane layoutX="254.0" layoutY="102.0" prefHeight="419.0" prefWidth="373.0" style="-fx-background-color: #317E9E; -fx-background-radius: 20;">
+         <children>
+            <Button layoutX="14.0" layoutY="22.0" mnemonicParsing="false" onAction="#onUserinfo" prefHeight="56.0" prefWidth="166.0" style="-fx-background-color: #1A252A; -fx-background-radius: 20;" text="User Information" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="194.0" layoutY="22.0" mnemonicParsing="false" onAction="#onDeposit" prefHeight="56.0" prefWidth="166.0" style="-fx-background-color: #1A252A; -fx-background-radius: 20;" text="Deposit Money" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="14.0" layoutY="128.0" mnemonicParsing="false" onAction="#onCheck" prefHeight="56.0" prefWidth="166.0" style="-fx-background-color: #1A252A; -fx-background-radius: 20;" text="Check balance" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="197.0" layoutY="128.0" mnemonicParsing="false" onAction="#onWithdraw" prefHeight="56.0" prefWidth="166.0" style="-fx-background-color: #1A252A; -fx-background-radius: 20;" text="Withdraw Money" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="14.0" layoutY="235.0" mnemonicParsing="false" onAction="#onTransfer" prefHeight="56.0" prefWidth="166.0" style="-fx-background-color: #1A252A; -fx-background-radius: 20;" text="Balance Transfer" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="197.0" layoutY="235.0" mnemonicParsing="false" onAction="#onChange" prefHeight="56.0" prefWidth="166.0" style="-fx-background-color: #1A252A; -fx-background-radius: 20;" text="Change Password" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="197.0" layoutY="343.0" mnemonicParsing="false" onAction="#onDelete" prefHeight="56.0" prefWidth="166.0" style="-fx-background-color: #1A252A; -fx-background-radius: 20;" text="Delete Account" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="14.0" layoutY="343.0" mnemonicParsing="false" onAction="#onEdit" prefHeight="56.0" prefWidth="166.0" style="-fx-background-color: #1A252A; -fx-background-radius: 20;" text="Edit Information" textFill="#f2f2f2">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <AnchorPane prefHeight="542.0" prefWidth="245.0" style="-fx-background-color: #344F93;">
+         <children>
+            <MenuBar layoutY="2.0" prefHeight="25.0" prefWidth="131.0" style="-fx-background-color: #79A9BF;">
+              <menus>
+                <Menu mnemonicParsing="false" text="File">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Close" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Edit">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="Delete" />
+                  </items>
+                </Menu>
+                <Menu mnemonicParsing="false" text="Help">
+                  <items>
+                    <MenuItem mnemonicParsing="false" text="About" />
+                  </items>
+                </Menu>
+              </menus>
+            </MenuBar>
+            <ImageView fitHeight="183.0" fitWidth="193.0" layoutX="26.0" layoutY="149.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../images/signup.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="37.0" layoutY="402.0" prefHeight="56.0" prefWidth="171.0">
+               <font>
+                  <Font name="Agency FB" size="40.0" />
+               </font>
+            </Label>
+            <Button layoutX="131.0" layoutY="2.0" mnemonicParsing="false" onAction="#logoutAction" prefHeight="25.0" prefWidth="72.0" style="-fx-background-color: #317E9E; -fx-background-radius: -10;" text="Log Out">
+               <effect>
+                  <Glow />
+               </effect></Button>
+         </children></AnchorPane>
+      <Label layoutX="309.0" layoutY="30.0" prefHeight="56.0" prefWidth="131.0" text="Welcome">
+         <font>
+            <Font name="Agency FB Bold" size="40.0" />
+         </font>
+      </Label>
+      <Label layoutX="465.0" layoutY="33.0" prefHeight="44.0" prefWidth="131.0">
+         <font>
+            <Font name="Agency FB" size="40.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

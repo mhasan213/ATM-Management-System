@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #1C4887;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.atmmanagement.UserinfoController">
+   <children>
+      <AnchorPane layoutX="268.0" layoutY="12.0" prefHeight="377.0" prefWidth="321.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="10.0" layoutY="31.0" text="Name">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="9.0" layoutY="75.0" text="Username">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="9.0" layoutY="139.0" text="Address">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="221.0" text="Phone">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="8.0" layoutY="269.0" text="Current Balance">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <TextField layoutX="142.0" layoutY="28.0" style="-fx-background-radius: 20; -fx-border-color: #1C4887; -fx-border-radius: 20;">
+               <effect>
+                  <Glow />
+               </effect></TextField>
+            <TextField layoutX="142.0" layoutY="72.0" style="-fx-background-radius: 20; -fx-border-color: #1C4887; -fx-border-radius: 20;">
+               <effect>
+                  <Glow />
+               </effect></TextField>
+            <TextField layoutX="143.0" layoutY="124.0" prefHeight="71.0" prefWidth="149.0" style="-fx-background-radius: 20; -fx-border-color: #1C4887; -fx-border-radius: 20;">
+               <effect>
+                  <Glow />
+               </effect></TextField>
+            <TextField layoutX="142.0" layoutY="218.0" style="-fx-background-radius: 20; -fx-border-color: #1C4887; -fx-border-radius: 20;">
+               <effect>
+                  <Glow />
+               </effect></TextField>
+            <TextField layoutX="142.0" layoutY="266.0" style="-fx-background-radius: 20; -fx-border-color: #1C4887; -fx-border-radius: 20;">
+               <effect>
+                  <Glow />
+               </effect></TextField>
+            <Button layoutX="133.0" layoutY="324.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="124.0" style="-fx-background-radius: 20; -fx-background-color: #1C4887;" text="Load Information">
+               <font>
+                  <Font name="System Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <ImageView fitHeight="150.0" fitWidth="130.0" layoutX="69.0" layoutY="125.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/userinfo.png" />
+         </image>
+      </ImageView>
+      <Box />
+      <Label layoutX="22.0" layoutY="36.0" prefHeight="46.0" prefWidth="224.0" text="User Information" textFill="#eee9e9">
+         <font>
+            <Font name="System Bold" size="27.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

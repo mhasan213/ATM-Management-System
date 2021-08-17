@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #286782;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane layoutX="280.0" layoutY="15.0" prefHeight="370.0" prefWidth="306.0" style="-fx-background-color: white; -fx-background-radius: 20;">
+         <children>
+            <Label layoutX="4.0" layoutY="69.0" text="Receiver Username">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="143.0" text="Amount">
+               <font>
+                  <Font name="System Bold" size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="219.0" text="Your Password">
+               <font>
+                  <Font name="System Bold" size="16.0" />
+               </font>
+            </Label>
+            <Button alignment="CENTER" layoutX="177.0" layoutY="295.0" mnemonicParsing="false" prefHeight="31.0" prefWidth="71.0" style="-fx-background-color: #286782; -fx-background-radius: 20;" text="Send">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+            <TextField layoutX="150.0" layoutY="67.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" />
+            <TextField layoutX="150.0" layoutY="141.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" />
+            <TextField layoutX="150.0" layoutY="219.0" style="-fx-background-radius: 20; -fx-border-color: black; -fx-border-radius: 20;" />
+         </children>
+      </Pane>
+      <Label alignment="CENTER" layoutX="43.0" layoutY="71.0" text="Balance Transfer" textFill="#ebe8e8">
+         <font>
+            <Font size="29.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="169.0" layoutX="59.0" layoutY="145.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/transfer.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
